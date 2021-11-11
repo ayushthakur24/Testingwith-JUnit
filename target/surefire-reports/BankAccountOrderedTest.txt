@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: BankAccountOrderedTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+BankAccountOrderedTest.testWithdraw()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: Violating minimum amount policy
+	at BankAccount.withdraw(BankAccount.java:43)
+	at BankAccountOrderedTest.testWithdraw(BankAccountOrderedTest.java:15)
+
